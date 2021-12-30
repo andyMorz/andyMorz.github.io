@@ -1,0 +1,47 @@
+@keyframes color-change {                      
+    0% {
+        color: rgb(35, 218, 193);
+      }
+    
+      50% {
+        color: rgb(8, 58, 134);
+      }
+    
+      100% {
+        color: rgb(35, 218, 193);
+      }
+    }
+    .animation-text {                       
+        text-align: center;
+        font-size: 60px;
+        animation: color-change 3s infinite;
+    }
+
+    #ee {
+      
+      font-style: italic;
+      text-decoration: none;
+      font-size: 14px;
+      color: tomato;
+    }
+
+    .carfon {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80');
+        -webkit-background-size: cover;
+        -moz-background-size:  cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    }
+    
+    .clon-net{
+      text-align: center;
+      font-size: 90px;
+      color: red;
+      background: #aaa;
+    }
+
+
+    .lol{
+      background-color: aqua;
+    }
